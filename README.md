@@ -96,7 +96,7 @@ const lightColor1 = generateColor('#1677ff', { index: 1 }); // #e6f4ff
 const lightColor2 = colorPalette('#1677ff', 1); // #e6f4ff
 
 // dark color
-const darkColor1 = generateColor('#1677ff', { index: 1 }); // #111a2c
+const darkColor1 = generateColor('#1677ff', { index: 1, dark: true }); // #111a2c
 // or
 const darkColor2 = darkColorPalette('#1677ff', 1); // #111a2c
 ```
