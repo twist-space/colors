@@ -100,3 +100,17 @@ const darkColor1 = generateColor('#1677ff', { index: 1, dark: true }); // #111a2
 // or
 const darkColor2 = darkColorPalette('#1677ff', 1); // #111a2c
 ```
+
+### Util
+```js
+import { getRgbStr } from '@twistify/colors';
+
+console.log(getRgbStr('#ffffff')); // rgb(255, 255, 255)
+console.log(getRgbStr('#121212')); // rgb(18, 18, 18)
+```
+
+### Credits
+This project inspired by `ant-design-color`、`arco-design-color`.
+
+- [ant-design-color](https://github.com/ant-design/ant-design-colors)
+- [arco-design-color](https://github.com/arco-design/color)
