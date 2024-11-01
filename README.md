@@ -105,8 +105,8 @@ const darkColor2 = darkColorPalette('#1677ff', 1); // #111a2c
 ```js
 import { getRgbStr } from '@twistify/colors';
 
-console.log(getRgbStr('#ffffff')); // 255, 255, 255
-console.log(getRgbStr('#121212')); // 18, 18, 18
+console.log(getRgbStr('#ffffff')); // 255,255,255
+console.log(getRgbStr('#121212')); // 18,18,18
 ```
 
 ### Credits
