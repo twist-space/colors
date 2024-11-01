@@ -1,6 +1,6 @@
 {
   "name": "@twistify/colors",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "generate colors palettes",
   "author": "razzh",
   "license": "MIT",
@@ -11,6 +11,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
+  "files": ["es", "lib"],
   "scripts": {
     "test": "vitest",
     "build": "tsc --module esnext --outDir es && tsc --module commonjs --outDir lib"
