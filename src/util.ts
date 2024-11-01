@@ -1,5 +1,6 @@
 import { TinyColor } from '@ctrl/tinycolor';
 
 export function getRgbStr(color: string) {
-  return new TinyColor(color).toRgbString();
+  const rgb = new TinyColor(color);
+  return `${rgb.r},${rgb.g},${rgb.b}`;
 }
